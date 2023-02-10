@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#gridContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.gridItem{
+    border: 2px dotted black;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.header{
+
+    padding: 25px;
+    height: 75px;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#hello{
+    border: dotted black;
+    display: flex;
+    align-items: center;
+    height: 160px;
+    font-size:80px;
+    padding-left: 15px;
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
+.helloText{
+    display: inline-block;
+    text-align: Left;
+    font-family: Calibri;
+    font-size:120px;
+    color: blue;
+}
+
+.ThisIsMe{
+
+    font-family: Calibri;
+    height: 180px;
+    font-size:90px;
+    padding-left: 15px;
+    grid-column: 1;
+    grid-row: 3;
+    border: dotted pink;
+}
+
+.thisIsMeText{
+
+    font-family: Calibri;
+    font-size: 120px;
+    color: white;
+}
+
+
+
+#potrait{
+    border: dotted white;
+    height: 100%;
+
+
+}
+
+#potraitImg{
+    border: dotted white;
+    width: 70%;
+    object-fit: fill;
+    grid-column: 3;
+    grid-row: 3;
+}
+#arrow{
+    height: 43%;
+    width: 150%;
+    grid-column: 2;
+    grid-row: 3;
+    border: dotted green;
+    display: flex;
+    align-items: center;
+}
+#arrowImg{
+    height: 60%;
+    width: 60%;
+    object-fit: fill;
+}
+
+#IStudy{
+    grid-row: 4;
+    border: dotted orange;
+}
+
+#bottom{
+
+    grid-column: 1/4;
+    grid-row: 5;
+    border: yellow;
+}
+
+
+#bottomText{
+
+    font-size: 60px;
+}
+
+.background
+{background: rgb(8,131,210);
+    background: linear-gradient(90deg, rgba(8,131,210,1) 0%, rgba(9,71,121,1) 69%);
+}

@@ -45,10 +45,26 @@
 }
 
 #sidePanel{
-    grid-row: 3;
-    grid-column: 2/5;
-    border:  purple;
-    height: 200px;
+    grid-row: 3/6;
+    grid-column: 3;
+    width: 250px;
+    background-color: white;
+    padding-top: 12px;
+}
+
+h2{
+    font-family: "Segoe UI";
+    font-size: 25px;
+}
+
+ul{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Segoe UI Semibold";
 }
 
 .ThisIsMe {
@@ -67,9 +83,10 @@
 .thisIsMeText {
 
     font-family: Calibri;
-    font-size:120px;
+    font-size:110px;
     color: white;
 }
+
 
 
 #potrait {

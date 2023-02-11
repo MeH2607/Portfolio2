@@ -18,8 +18,8 @@
 
 .header {
 
-    padding: 25px;
-    height: 75px;
+    padding: 10px;
+    height: 20px;
     text-align: center;
     grid-column: 1 / 4;
     grid-row: 1;
@@ -34,27 +34,29 @@
     padding-left: 15px;
     grid-column: 1 / 4;
     grid-row: 2;
+
 }
 
 .helloText {
     display: inline-block;
     text-align: Left;
-    font-family: Calibri;
+    font-family: "Segoe UI";
     font-size: 120px;
-    color: blue;
+    color: #D25708;
 }
 
 #sidePanel{
     grid-row: 3/6;
     grid-column: 3;
     width: 250px;
-    background-color: white;
     padding-top: 12px;
 }
 
 h2{
     font-family: "Segoe UI";
-    font-size: 25px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
 }
 
 ul{
@@ -64,27 +66,29 @@ ul{
 li{
     font-size: 20px;
     margin-bottom: 20px;
-    font-family: "Segoe UI Semibold";
+      font-family: "Segoe UI Semibold";
+    color: white;
 }
 
 .ThisIsMe {
     display: flex;
     align-items: center;
     font-family: Calibri;
-    height: 200px;
+    height: 170px;
     font-size: 90px;
     padding-left: 15px;
     grid-column: 1;
     grid-row: 3;
-   border: dotted pink;
+
 
 }
 
 .thisIsMeText {
 
-    font-family: Calibri;
-    font-size:110px;
+    font-family: "Segoe UI";
+    font-size:100px;
     color: white;
+    color: #D25708;
 }
 
 
@@ -132,21 +136,21 @@ li{
 }
 
 #IStudyText {
-
-    font-size: 95px;
+    color: #D25708;
+    font-size: 85px;
 }
 
 #bottom {
 
-    grid-column: 1/2;
-    grid-row: 6;
+    grid-column: 1;
+    grid-row: 5;
     border: dotted hotpink;
 
 }
 
 .bottomText {
     font-size: 80px;
-
+    color: #D25708;
 }
 
 .icons{
